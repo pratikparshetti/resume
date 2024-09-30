@@ -1,0 +1,23 @@
+.main-header {
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    z-index: 1;
+}
+.name {
+	margin-top: 2%; position: absolute; font-family: Raleway; font-weight: 700;font-size: 30; width: 90%; margin-left: 4%;padding-bottom: 1%;
+}
+
+.designation {
+	margin-top: 6.5%; position: absolute; font-family: Raleway; font-weight: 700;font-size: 22; width: 90%; margin-left: 4%;
+}
+
+.personal-details {
+	margin-top: 10.5%; position: absolute; font-family: Raleway; font-weight: 700;font-size: 13; width: 30%;
+}
+
+.location {
+	margin-top: 15%; position: absolute; font-family: Raleway; font-weight: 700;font-size: 13; width: 30%; margin-left: 4%;
+}
