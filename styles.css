@@ -7,7 +7,7 @@
 }
 
 .header {
-	background-color: darkblue; height: 135px;color: white;width: 100%;
+	background-color: #164f64; height: 135px;color: white;width: 100%;
 }
 
 .name {
@@ -27,15 +27,15 @@
 }
 
 .left-pane {
-	 width: 57%; color: darkblue;  margin-left: 1%;
+	 width: 57%; color: #164f64;  margin-left: 1%; color: black;
 }
 
 .section-heading {
-	background-color: white; font-weight: 700; font-size: 20; margin-top: 20;
+	background-color: white; font-weight: 700; font-size: 20; margin-top: 20; color: #164f64;
 }
 
 .bold-line {
-	background-color:darkblue; margin-top: 1; height: 3;
+	background-color:#164f64; margin-top: 1; height: 3; color: #164f64;
 }
 
 .summary-value{
@@ -43,34 +43,45 @@
 }
 
 .experience-designation {
-	background-color: white; margin-top: 6; color: darkblue; font-size: 16;
+	background-color: white; margin-top: 6; font-size: 16;
 }
 
 .company-name {
-	background-color: white; margin-top: 3; color: darkblue; font-weight: 700; font-size: 13;
+	background-color: white; margin-top: 3; font-weight: 700; font-size: 13; color: black; margin-left: 2;
 }
 
 .company-period {
-	background-color: white; margin-top: 3; color: darkblue; font-size: 11; 
+	background-color: white; margin-top: 3; font-size: 11; color: black; margin-left: 2;
 }
 
 .company-location {
-	background-color: white; margin-top: -12;  color: darkblue; font-size: 11; text-align: right;
+	background-color: white; margin-top: -12;  font-size: 11; text-align: right;
 }
 
 .exp-bullets {
-	background-color: white; margin-top: 4; color: darkblue; font-size: 12;
+	background-color: white; margin-top: 4; font-size: 12; color: black;
 }
 
 .right-pane {
-	background-color: white; margin-top: -845; width: 34%; color: darkblue; margin-left: 65%;
+	background-color: white; margin-top: -845; width: 34%; color: #164f64; margin-left: 65%;
 }
 
 .span-style {
 	background-color: white; box-sizing: border-box; 
 }
 
-.skills {
-	display: inline-block;padding-bottom: 8; padding-right:9 ;
+.container {
+	margin-top: 6;
+    display: flex;
+    flex-wrap: wrap; /* Allows blocks to wrap to the next line if they overflow */
+    gap: 15px; /* Adds space between blocks */
+    color: black;
 
+}
+
+.custom-underline {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    text-transform: uppercase;
 }
