@@ -35,7 +35,7 @@
 }
 
 .summary-value{
-	background-color:white; margin-top: 6; font-size: 12;
+	background-color:white; margin-top: 6; font-size: 12; line-height: 1.5;
 }
 
 .experience-designation {
@@ -80,8 +80,10 @@
 
 .ul{
 	margin-left: -4%;
+	line-height: 1.8;
 }
 
 .ul-ach{
 	margin-left: -8%;
+	line-height: 1.5;
 }
