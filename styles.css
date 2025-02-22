@@ -35,7 +35,7 @@
 }
 
 .summary-value{
-	background-color:white; margin-top: 6; font-size: 12;
+	background-color:white; margin-top: 6; font-size: 13;
 }
 
 .experience-designation {
@@ -47,15 +47,15 @@
 }
 
 .company-period {
-	background-color: white; margin-top: 3; font-size: 11; color: black; margin-left: 2;
+	background-color: white; margin-top: 3; font-size: 12; color: black; margin-left: 2;
 }
 
 .company-location {
-	background-color: white; margin-top: -12;  font-size: 11; text-align: right;
+	background-color: white; margin-top: -12;  font-size: 12; text-align: right;
 }
 
 .exp-bullets {
-	background-color: white; margin-top: 4; font-size: 12; color: black;
+	background-color: white; margin-top: 4; font-size: 13; color: black;
 }
 
 .span-style {
@@ -66,7 +66,7 @@
 	margin-top: 6;
     display: flex;
     flex-wrap: wrap; /* Allows blocks to wrap to the next line if they overflow */
-    gap: 15px; /* Adds space between blocks */
+    gap: 10px; /* Adds space between blocks */
     color: black;
 
 }
@@ -80,6 +80,10 @@
 
 .ul{
 	margin-left: -4%;
+}
+
+li {
+  margin-bottom: 6px; /* Adjust this value to control the space between list items */
 }
 
 .ul-ach{
